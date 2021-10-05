@@ -1,26 +1,29 @@
+html, body{
+    width: 100%;
+    width: 100%;
+}
+
 @font-face {
     font-family: Thintel; 
     src: url(Thintel.ttf); 
-    
 }
 
 body {
     background: black;
-    color:aliceblue;
+    color:white;
     font-family: Thintel;
     text-align: center;
-    font-size: 40pt;
-}
-
-#container{
-    height: 10em;
-    display: flex;
-    align-items: center
+    font-size: 60pt;
 }
 
 #clock{
-    margin-left: 50%;
-    position: absolute;               
+    width: 140px;
+    /* background: darkslateblue; */
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0 auto;            
     top: 50%;                         
     transform: translate(0, -50%)
 }

@@ -7,9 +7,7 @@ window.onload = function(){
     setInterval(update, 900);
 };
 
-var i = 1
-
 function update(){
-    i++;
-    clockDiv.firstChild.data = i;
+    var now = new Date();
+    clockDiv.firstChild.data = now.getHours() + ":" + now.getMinutes();
 }
