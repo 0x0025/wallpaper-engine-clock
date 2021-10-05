@@ -1,4 +1,15 @@
+var clockDiv;
+
 window.onload = function(){
     console.log("Hello world");
-    var clockDiv = document.getElementById('clock');
+    clockDiv = document.getElementById('clock');
+
+    setInterval(update, 900);
 };
+
+var i = 1
+
+function update(){
+    i++;
+    clockDiv.firstChild.data = i;
+}
