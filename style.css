@@ -12,10 +12,15 @@ body {
     font-size: 40pt;
 }
 
-div{
-    background: blueviolet;
-    
+#container{
+    height: 10em;
+    display: flex;
+    align-items: center
+}
 
-    margin: 0 auto;
-    
+#clock{
+    margin-left: 50%;
+    position: absolute;               
+    top: 50%;                         
+    transform: translate(0, -50%)
 }
