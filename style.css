@@ -13,17 +13,20 @@ body {
     color:white;
     font-family: Thintel;
     text-align: center;
-    font-size: 60pt;
+    font-size: 80pt;
+
 }
 
 #clock{
-    width: 140px;
-    /* background: darkslateblue; */
+    width: 170px;
+    /* background: darkslateblue;  */
     text-align: center;
     left: 0;
     right: 0;
     position: absolute;
     margin: 0 auto;            
     top: 50%;                         
-    transform: translate(0, -50%)
+    transform: translate(0, -50%);
+    font-smooth: never;
+    -webkit-font-smoothing : none;
 }
